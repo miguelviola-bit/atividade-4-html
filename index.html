@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minha Rotina Semanal</title>
+
+    <style>
+        /* Configuração geral da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #942727;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Título principal */
+        h1 {
+            text-align: center;
+            color: #d66920;
+        }
+
+        /* Títulos das tabelas */
+        h2 {
+            text-align: center;
+            color: #f09494;
+            margin-top: 30px;
+        }
+
+        /* Configuração das tabelas */
+        table {
+            width: 100%;
+            max-width: 1000px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        /* Bordas e espaçamento das células */
+        th, td {
+            border: 1px solid #885151;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Cabeçalho das tabelas */
+        th {
+            background-color: #ff6600;
+            color: white;
+        }
+
+        /* Primeira coluna */
+        .horario {
+            background-color: #ff6600;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Cores alternadas */
+        .linha1 {
+            background-color: #ffffff;
+        }
+
+        .linha2 {
+            background-color: #ffe0cc;
+        }
+
+        /* Texto das atividades */
+        td {
+            font-size: 14px;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #555555;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Minha Rotina Semanal</h1>
+
+    <!-- TABELA 1 -->
+    <h2>Tabela 1 - Minha Rotina Diária</h2>
+
+    <table>
+
+        <tr>
+            <th colspan="4">Horários da Minha Rotina</th>
+        </tr>
+
+        <tr>
+            <th>Horário</th>
+            <th>Segunda-feira</th>
+            <th>Terça-feira</th>
+            <th>Quarta-feira</th>
+        </tr>
+
+        <tr class="linha1">
+            <td class="horario">08:00</td>
+            <td>Acordar</td>
+            <td>Acordar</td>
+            <td>Acordar</td>
+        </tr>
+
+        <tr class="linha2">
+            <td class="horario">09:00</td>
+            <td>Café da manhã</td>
+            <td>Café da manhã</td>
+            <td>Café da manhã</td>
+        </tr>
+
+        <tr class="linha1">
+            <td class="horario">10:00</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+        </tr>
+
+        <tr class="linha2">
+            <td class="horario">14:00</td>
+            <td>Academia</td>
+            <td>Descanso</td>
+            <td>Academia</td>
+        </tr>
+
+        <tr class="linha1">
+            <td class="horario">19:00</td>
+            <td>Faculdade</td>
+            <td>Faculdade</td>
+            <td>Faculdade</td>
+        </tr>
+
+    </table>
+
+
+    <!-- TABELA 2 -->
+    <h2>Tabela 2 - Rotina Semanal</h2>
+
+    <table>
+
+        <!-- Cabeçalho -->
+        <tr>
+            <th></th>
+            <th>DOM</th>
+            <th>SEG</th>
+            <th>TER</th>
+            <th>QUA</th>
+            <th>QUI</th>
+            <th>SEX</th>
+            <th>SAB</th>
+        </tr>
+
+        <!-- Manhã -->
+        <tr class="linha1">
+            <td class="horario">MANHÃ</td>
+
+            <td>Descanso</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Estudar</td>
+            <td>Descanso</td>
+        </tr>
+
+        <!-- Tarde -->
+        <tr class="linha2">
+            <td class="horario">TARDE</td>
+
+            <td>Descanso</td>
+            <td>Academia</td>
+            <td>Descanso</td>
+            <td>Academia</td>
+            <td>Descanso</td>
+            <td>Academia</td>
+            <td>Lazer</td>
+        </tr>
+
+        <!-- Noite -->
+        <tr class="linha1">
+            <td class="horario">NOITE</td>
+
+            <td>Lazer</td>
+            <td>Faculdade</td>
+            <td>Faculdade</td>
+            <td>Faculdade</td>
+            <td>Faculdade</td>
+            <td>Faculdade</td>
+            <td>Lazer</td>
+        </tr>
+
+        <!-- Extra: uso de rowspan -->
+        <tr class="linha2">
+            <td class="horario">EXTRA</td>
+
+            <td colspan="2">Organizar a semana</td>
+
+            <td rowspan="2">Descanso</td>
+
+            <td colspan="2">Estudar programação</td>
+
+            <td colspan="2">Tempo livre</td>
+        </tr>
+
+        <tr class="linha1">
+            <td class="horario">DOMINGO</td>
+
+            <td colspan="2">Planejar atividades</td>
+
+            <td colspan="2">Revisar conteúdos</td>
+
+            <td colspan="2">Descansar</td>
+        </tr>
+
+    </table>
+
+    <footer>
+        <p>Atividade de HTML e CSS - Tabelas</p>
+    </footer>
+
+    
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela de Alunos</title>
+</head>
+<body>
+
+    <h1>Alunos da Academia</h1>
+
+    <table border="1">
+
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Modalidade</th>
+        </tr>
+
+        <tr>
+            <td>João</td>
+            <td>20</td>
+            <td>Musculação</td>
+        </tr>
+
+        <tr>
+            <td>Maria</td>
+            <td>25</td>
+            <td> Pilates </td>
+        </tr>
+
+        <tr>
+            <td>Pedro</td>
+            <td>30</td>
+            <td>Crossfit</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+
+</body>
+
+</html>
